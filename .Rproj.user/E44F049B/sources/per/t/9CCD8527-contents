@@ -1,0 +1,32 @@
+title: Dublin Open Research Network
+baseURL: https://gohugo-theme-ananke.pages.dev
+languageCode: en-us
+theme: gohugo-theme-ananke
+resourceDir: ../resources
+DefaultContentLanguage: en
+SectionPagesMenu: main
+Paginate: 3
+googleAnalytics: ''
+enableRobotsTXT: yes
+languages:
+  en:
+    contentDir: content/en
+    title: DORN
+    weight: 1
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+params:
+  ananke_socials:
+    - name: twitter
+      url: https://twitter.com/dublinopensci
+    - name: mail
+      url: mailto:dublinopenresearch@gmail.com
+  author: ''
+  background_color_class: bg-black
+  description: Making Irish Research Open
+  favicon: ''
+  recent_posts_number: 3
+  site_logo: ''
+  text_color: ''
