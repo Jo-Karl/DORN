@@ -1,5 +1,5 @@
 title: Dublin Open Research Network
-baseURL: https://earnest-horse-ce3a5b.netlify.app/
+baseURL: https://dublinopenresearch.netlify.app/
 languageCode: en-us
 theme: gohugo-theme-ananke
 resourceDir: ../resources

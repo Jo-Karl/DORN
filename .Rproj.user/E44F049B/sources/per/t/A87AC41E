@@ -3,7 +3,7 @@
     "path": "C:/Users/karlj/Dropbox/Websites/DORN/config.yaml",
     "project_path": "config.yaml",
     "type": "yaml",
-    "hash": "552467397",
+    "hash": "69851228",
     "contents": "",
     "dirty": false,
     "created": 1678108375350.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "1,50",
+        "cursorPosition": "1,48",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1678108314,
+    "lastKnownWriteTime": 1678108887,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1678108314,
+    "last_content_update": 1678108887904,
     "read_only": false,
     "read_only_alternatives": []
 }
