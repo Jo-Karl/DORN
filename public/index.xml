@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dublin Open Research Network on DORN</title>
+    <link>https://earnest-horse-ce3a5b.netlify.app/</link>
+    <description>Recent content in Dublin Open Research Network on DORN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://earnest-horse-ce3a5b.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Launch of the Dublin Open Research Network Website</title>
+      <link>https://earnest-horse-ce3a5b.netlify.app/post/launch/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://earnest-horse-ce3a5b.netlify.app/post/launch/</guid>
+      <description>We (the Dublin Open Research Network, DORN) are a peer-led network of academics in Dublin. Our aim is to promote open research practices, with a view to enhancing research integrity, and improve the quality (rigour, reproducibility, replicability) of published research. We meet informally and discuss how open research principles can be implemented effectively, to improve research transparency across different disciplines.
+We encourage awareness of open research ideas and training opportunities. We believe that open research is suitable for any career stage, from early-career researchers to senior academics.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://earnest-horse-ce3a5b.netlify.app/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://earnest-horse-ce3a5b.netlify.app/contact/</guid>
+      <description>If you want to get in contact with us please send us an email</description>
+    </item>
+    
+    <item>
+      <title>Our Mission</title>
+      <link>https://earnest-horse-ce3a5b.netlify.app/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://earnest-horse-ce3a5b.netlify.app/about/</guid>
+      <description>We (the Dublin Open Research Network, DORN) are a peer-led network of academics in Dublin. Our aim is to promote open research practices, with a view to enhancing research integrity, and improve the quality (rigour, reproducibility, replicability) of published research. We meet informally and discuss how open research principles can be implemented effectively, to improve research transparency across different disciplines.
+We encourage awareness of open research ideas and training opportunities. We believe that open research is suitable for any career stage, from early-career researchers to senior academics.</description>
+    </item>
+    
+  </channel>
+</rss>
