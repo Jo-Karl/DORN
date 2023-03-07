@@ -23,6 +23,8 @@ params:
       url: https://twitter.com/dublinopensci
     - name: mail
       url: mailto:dublinopenresearch@gmail.com
+    - name: osf
+      url: https://osf.io/x5ck6/
   author: ''
   background_color_class: bg-black
   description: Making Irish Research Open
