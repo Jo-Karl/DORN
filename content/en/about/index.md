@@ -1,9 +1,9 @@
 ---
 description: 'Making Research Transparent, Reproducible, and Open to Everyone'
 featured_image: /images/dublin_night1.jpg
-menu:
-  main:
-    weight: 1
+# menu:
+#   main:
+#     weight: 1
 title: Our Mission
 ---
 

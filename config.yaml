@@ -30,5 +30,40 @@ params:
   description: Making Irish Research Open
   favicon: ''
   recent_posts_number: 3
-  site_logo: 'Transparent Logo-02.png'
+  site_logo: 'Transparent-Logo-02.png'
   text_color: ''
+
+menu:
+  main:
+    - name: Home
+      weight: 1
+      identifier: home
+      url: /
+      url: /
+    - name: The Team
+      weight: 2
+      identifier: the_team
+      url: /
+    - weight: 1
+      parent: the_team
+      name: Static Page Test 1
+      identifier: page1
+      url: /
+    - weight: 2
+      parent: the_team
+      name: Static Page Test 2
+      identifier: page2
+      url: /
+    - weight: 3
+      parent: the_team
+      name: Alumni
+      identifier: alumni
+      url: /alumni
+    - name: Upcoming Events
+      weight: 3
+      identifier: upcoming-events
+      url: /upcoming-events/
+    - name: Our Mission
+      weight: 4
+      identifier: our_mission
+      url: /about/

@@ -1,0 +1,139 @@
+<nav class="pv3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white no-underline white-90 dib">
+      {{ with .Site.Params.site_logo }}
+      <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+      {{ else }}
+      {{ .Site.Title }}
+      {{ end }}
+    </a>
+    <div class="flex-l items-center">
+      {{ partial "i18nlist.html" . }}
+      {{ if .Site.Menus.main }}
+      <!-- <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
+          {{ range .Site.Menus.main }}
+          <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+            <a class="hover-white no-underline white-90" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+        </ul> -->
+      <style>
+        /* CUSTOM TACHYON LIKE CLASSES */
+
+        .bt--dashed {
+          border-top-style: dashed;
+        }
+
+        .bl--transparent {
+          border-left-color: transparent;
+        }
+
+        .br--transparent {
+          border-right-color: transparent;
+        }
+
+        .ananke-socials {
+          margin-left: 6em;
+        }
+
+        .bg-black-trans {
+          background-color: #33333345;
+        }
+      </style>
+      <nav class="flex justify-between ph3 ">
+
+        <ul class="flex flex-shrink-0 list ma0 pa0">
+          {{ $currentPage := . }}
+          {{ range site.Menus.main }}
+          {{ if .Name}}
+          {{ $menu_item_url := .URL | absLangURL }}
+          {{ $page_url:= $currentPage.Permalink | absLangURL }}
+          {{ $active := eq $menu_item_url $page_url}}
+
+          {{ if .HasChildren }}
+          <li class="relative">
+            <a href="#" class="dib pv3 ph2 no-underline sans-serif white  js-has-dropdown" aria-expanded="false">{{.Name
+              | markdownify}}<span
+                class="dib ml1 v-mid bw2 bt bt--dashed bt-1 br br--transparent br-1 bl bl--transparent bl-1 bb-0"></span></a>
+            <ul class="dn absolute list bg-black-trans pa2">
+              {{ range .Children }}
+              <li><a href="{{.URL}}" class="db no-underline ph2 pv1 sans-serif white nowrap">{{.Name | markdownify}}</a>
+              </li>
+              {{end}}
+            </ul>
+          </li>
+          {{else}}
+
+          <li><a href="{{.URL}}" class="dib pv3 ph2 no-underline sans-serif white">{{.Name | markdownify}}</a></li>
+          {{end}}
+          {{end}}
+          {{end}}
+        </ul>
+
+      </nav>
+      {{ end }}
+      {{ partialCached "social-follow.html" . }}
+    </div>
+  </div>
+</nav>
+<script>
+  // Made to be used with Tachyons CSS classes
+  const initDropdowns = (function () {
+    const _dropdownTriggers = document.querySelectorAll(".js-has-dropdown");
+    const _toggleDropdown = e => {
+      e.stopPropagation();
+      e.preventDefault();
+      const trigger = e.target;
+
+      _dropdownTriggers.forEach(el => {
+        // Close sibling dropdowns
+        if (el !== trigger) {
+          _resetTarget(el);
+        }
+      });
+
+      const expanded = trigger.getAttribute("aria-expanded");
+      const target = trigger.nextElementSibling;
+
+      // 'Toggle' dropdown menu
+      if (expanded === "false") {
+        target.classList.remove("dn");
+        trigger.setAttribute("aria-expanded", "true");
+      } else {
+        target.classList.add("dn");
+        trigger.setAttribute("aria-expanded", "false");
+      }
+    };
+    const _closeAllDropdowns = () => {
+      _dropdownTriggers.forEach(trigger => {
+        _resetTarget(trigger);
+      });
+    };
+
+    function _resetTarget(el) {
+      const target = el.nextElementSibling;
+
+      target.classList.add("dn");
+      el.setAttribute("aria-expanded", "false");
+    }
+
+    function init() {
+      // Add events to all dropdown triggers
+      _dropdownTriggers.forEach(trigger => {
+        trigger.addEventListener("click", _toggleDropdown, false);
+      });
+
+      // Close dropdowns when clicking on the document
+      document.addEventListener("click", _closeAllDropdowns);
+    }
+
+    return {
+      init: init
+    };
+  })();
+
+  initDropdowns.init();
+
+</script>
