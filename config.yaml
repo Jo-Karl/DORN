@@ -39,26 +39,20 @@ menu:
       weight: 1
       identifier: home
       url: /
-      url: /
-    - name: The Team
+    - name: The Teams
       weight: 2
       identifier: the_team
       url: /
-    - weight: 1
-      parent: the_team
-      name: Static Page Test 1
-      identifier: page1
-      url: /
     - weight: 2
       parent: the_team
-      name: Static Page Test 2
-      identifier: page2
+      name: Dublin City University
+      identifier: page1
       url: /
-    - weight: 3
+    - weight: 1
       parent: the_team
-      name: Alumni
-      identifier: alumni
-      url: /alumni
+      name: Steering Committee
+      identifier: steering
+      url: /steering
     - name: Upcoming Events
       weight: 3
       identifier: upcoming-events
