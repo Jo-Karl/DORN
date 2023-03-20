@@ -11,6 +11,11 @@ omit_header_text: false
 team:
   enable: true
   team_item:
+  - name: "Johannes Karl"
+    designation: "johannes.karl@dcu.ie"
+    image: "/images/team/johannes_karl.jpg"
+    description: "Dr. Johannes Karl is an Assistant Professor at the Dublin City University. His current work broadly focuses on the origin and expression of individual differences in personality, values, and mindfulness. He has published on cross-cultural approaches to mindfulness, cross-temporal investigations of personality in literature using text mining, and network-perspectives on individual differences. His ongoing research projects include quantitative approaches to philosophy as way of live, the use of network statistics in cross-cultural psychology, and state-trait interactions of mindfulness."
+    
   - name: "Simon Dunne"
     designation: "simon.dunne@dcu.ie"
     image: "/images/team/simon_dunne.jpg"

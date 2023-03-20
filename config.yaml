@@ -47,7 +47,7 @@ menu:
       parent: the_team
       name: Dublin City University
       identifier: page1
-      url: /
+      url: /dcu
     - weight: 1
       parent: the_team
       name: Steering Committee
