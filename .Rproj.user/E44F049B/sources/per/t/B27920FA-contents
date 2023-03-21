@@ -12,9 +12,9 @@ team:
   enable: true
   team_item:
   - name: "David McGovern"
-    designation: "david.mcgovern@dcu.ie"
+    designation: "david.p.mcgovern@dcu.ie"
     image: "/images/dcu/david_mcgovern.jpg"
-    description: "David is a cognitive neuroscientist and psychologist with specific interests in perceptual decision-making, perceptual learning and multisensory perception, as well as how these processes change through natural and pathological ageing. To further our understanding of these cognitive functions, David uses a combination of psychophysical and brain imaging (mainly EEG) techniques. Where possible, the resulting data are verified through simulations derived from biologically-plausible computational models."
+    description: "Dr David McGovern is Assistant Professor at the School of Psychology, Dublin City University. David is a cognitive neuroscientist and psychologist with specific interests in perceptual decision-making, perceptual learning and multisensory perception, and how these processes change through natural and pathological ageing."
   - name: "Johannes Karl"
     designation: "johannes.karl@dcu.ie"
     image: "/images/team/johannes_karl.jpg"

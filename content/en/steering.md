@@ -26,6 +26,9 @@ team:
     image: "/images/team/catherine_fassbender.jpg"
     description: "Dr. Fassbender's research interests include understanding the neural correlates of cognitive control processes in clinical disorders, examining cognition and reward processing following long-term substance abuse, determining neural risk factors for relapse from sobriety in substance users and examining the neural and behavioural risk factors for substance abuse in adolescents.  She conducts her research using behavioural, functional neuroimaging and electrophysiological methods. Dr. Fassbender’s goal is to better understand the cognitive impairments in clinical disorders in order to inform targeted treatments. She is also interested in identifying patterns of brain and behaviour function that will inform the early identification of individuals vulnerable to substance dependence with the goal of prevention."
 
-  
+  - name: "David McGovern"
+    designation: "david.p.mcgovern@dcu.ie"
+    image: "/images/dcu/david_mcgovern.jpg"
+    description: "Dr David McGovern is Assistant Professor at the School of Psychology, Dublin City University. David is a cognitive neuroscientist and psychologist with specific interests in perceptual decision-making, perceptual learning and multisensory perception, and how these processes change through natural and pathological ageing."
 
 ---

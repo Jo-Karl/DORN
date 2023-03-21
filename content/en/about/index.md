@@ -5,6 +5,7 @@ featured_image: /images/dublin_night1.jpg
 #   main:
 #     weight: 1
 title: Our Mission
+date: 21/03/
 ---
 
 We (the Dublin Open Research Network, DORN) are a peer-led network of academics in Dublin. Our aim is to promote open research practices, with a view to enhancing research integrity, and improve the quality (rigour, reproducibility, replicability) of published research. We meet informally and discuss how open research principles can be implemented effectively, to improve research transparency across different disciplines.

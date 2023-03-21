@@ -1,11 +1,10 @@
 ---
-description: 'Making Research Transparent, Reproducible, and Open to Everyone'
-featured_image: /images/dublin_night1.jpg
-# menu:
-#   main:
-#     weight: 1
-title: Our Mission
-date: 21/03/
+date: "2023-03-21T10:58:08-04:00"
+description: A great start
+featured_image: /images/start.png
+tags:
+- announcement
+title: 'Launch of the Dublin Open Research Network Website'
 ---
 
 We (the Dublin Open Research Network, DORN) are a peer-led network of academics in Dublin. Our aim is to promote open research practices, with a view to enhancing research integrity, and improve the quality (rigour, reproducibility, replicability) of published research. We meet informally and discuss how open research principles can be implemented effectively, to improve research transparency across different disciplines.

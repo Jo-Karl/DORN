@@ -1,0 +1,51 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+
+<div class="flex-l mt2 mw8 center">
+  <section class="w-100 mw8">
+
+
+    <div class="relative w-100 mb4">
+
+      {{ if .Params.team.enable }}
+      {{ with .Params.team }}
+      {{ with .heading}}
+        <header class="mt4 w-100 center">
+          <h1 class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+            {{.}}
+          </h1>
+        </header>
+        {{ end}}
+
+        {{ range .team_item}}
+      <article class="bb b--black-10">
+        <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+          <div class="flex flex-column flex-row-ns">
+            <div class="pr3-ns mb4 mb0-ns w-100 w-25-ns">
+                <img src="{{.image}}" class="img" alt="{{.name}}">
+            </div>
+            <div class="blah w-100 w-60-ns pl3-ns">
+              <h1 class="f3 fw1 athelas mt0 mb0 lh-title">
+                  {{ .name | markdownify }}
+              </h1>
+              {{ with .designation}}
+              <time class="f6 mb2 mt1 dib tracked">{{.}}</time>
+              {{end}}
+              <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+                {{ .description | markdownify }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      {{end}}
+      {{end}}
+      {{end}}
+
+
+    </div>
+
+  </section>
+</div>
+
+{{ end }}
