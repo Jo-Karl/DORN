@@ -29,6 +29,6 @@ team:
   - name: "David McGovern"
     designation: "david.p.mcgovern@dcu.ie"
     image: "/images/dcu/david_mcgovern.jpg"
-    description: "Dr David McGovern is Assistant Professor at the School of Psychology, Dublin City University. David is a cognitive neuroscientist and psychologist with specific interests in perceptual decision-making, perceptual learning and multisensory perception, and how these processes change through natural and pathological ageing."
+    description: "Dr David McGovern is Assistant Professor at the School of Psychology, Dublin City University. David is a cognitive neuroscientist and psychologist with specific interests in perceptual decision-making, perceptual learning and multisensory perception, and how these processes change through natural and pathological ageing. To further our understanding of these cognitive functions, David uses a combination of psychophysical and brain imaging (mainly EEG) techniques. Where possible, the resulting data are verified through simulations derived from biologically-plausible computational models."
 
 ---
