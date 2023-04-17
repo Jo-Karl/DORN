@@ -2,40 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/tags/announcement/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <loc>https://dublinopenresearch.netlify.app/tags/announcement/</loc>
+    <lastmod>2023-03-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <loc>https://dublinopenresearch.netlify.app/</loc>
+    <lastmod>2023-03-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/post/launch/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <loc>https://dublinopenresearch.netlify.app/post/launch/</loc>
+    <lastmod>2023-03-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/tags/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <loc>https://dublinopenresearch.netlify.app/tags/</loc>
+    <lastmod>2023-03-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/post/</loc>
+    <loc>https://dublinopenresearch.netlify.app/post/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/categories/</loc>
+    <loc>https://dublinopenresearch.netlify.app/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/contact/</loc>
+    <loc>https://dublinopenresearch.netlify.app/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://earnest-horse-ce3a5b.netlify.app/about/</loc>
+    <loc>https://dublinopenresearch.netlify.app/dcu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://dublinopenresearch.netlify.app/ucd/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://dublinopenresearch.netlify.app/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://dublinopenresearch.netlify.app/copyofsteering/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://dublinopenresearch.netlify.app/steering/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://dublinopenresearch.netlify.app/upcoming-events/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

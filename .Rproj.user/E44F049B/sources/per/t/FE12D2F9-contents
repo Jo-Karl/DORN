@@ -48,6 +48,11 @@ menu:
       name: Dublin City University
       identifier: page1
       url: /dcu
+    - weight: 4
+      parent: the_team
+      name: University College Dublin
+      identifier: ucd
+      url: /ucd
     - weight: 1
       parent: the_team
       name: Steering Committee

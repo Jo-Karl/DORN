@@ -1,0 +1,20 @@
+---
+title: University College Dublin
+description: ""
+layout: alumni
+featured_image: /images/ucd/ucd.jpg
+# menu: ""
+omit_header_text: false
+
+
+# team
+team:
+  enable: true
+  team_item:
+  - name: "Katie Gilligan-Lee"
+    designation: "Katie.gilligan-lee@ucd.ie"
+    image: "/images/ucd/katie_gilligan.jpg"
+    description: "Dr Gilligan-Lee is an Assistant Professor and Ad Astra fellow at University College Dublin. Her research focuses on how an understanding of cognitive development can be used to inform and improve education. Her current research specifically focuses on spatial and mathematical development in both typical and atypical populations. Katie is interested in understanding the factors that influence success in mathematics including: cognitive predictors such as spatial thinking, memory and language; affective predictors like mathematics anxiety; and early home factors like mathematical play and spatial language exposure. Katie employs a range of methodological approaches including secondary analysis of nationally representative cohort data, meta-analyses, cross-sectional experimental-based approaches to studying development, and intervention-based research. Katie is an advocate for open research and applies open research principles across her research and teaching. This includes research exploring open research understanding in undergraduate students, and best practice for applying open research in teaching at third level."
+ 
+
+---
